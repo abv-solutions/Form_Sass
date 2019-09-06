@@ -1,0 +1,23 @@
+{
+  "name": "Form_Sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abv-solutions/Form_Sass.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abv-solutions/Form_Sass/issues"
+  },
+  "homepage": "https://github.com/abv-solutions/Form_Sass#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
