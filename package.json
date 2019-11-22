@@ -1,23 +1,33 @@
 {
-  "name": "Form_Sass",
+  "name": "UI_Forms",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o css/"
+    "sass": "node-sass -w scss/ -o css/",
+    "webpack": "webpack-dev-server --output-public-path=/js/",
+    "build": "webpack",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abv-solutions/Form_Sass.git"
+    "url": "git+https://github.com/abv-solutions/UI_Forms.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/abv-solutions/Form_Sass/issues"
+    "url": "https://github.com/abv-solutions/UI_Forms/issues"
   },
-  "homepage": "https://github.com/abv-solutions/Form_Sass#readme",
-  "dependencies": {
-    "node-sass": "^4.12.0"
+  "homepage": "https://abv-solutions.github.io/UI_Forms",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "gh-pages": "^2.1.1",
+    "node-sass": "^4.12.0",
+    "webpack": "^4.40.1",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
   }
 }
