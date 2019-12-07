@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/abv-solutions/ui-forms/issues"
   },
-  "homepage": "https://abv-solutions.github.io/ui-forms",
+  "homepage": "https://abv-solutions.github.io",
   "devDependencies": {
     "@babel/core": "^7.6.0",
     "@babel/preset-env": "^7.6.0",
