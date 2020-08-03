@@ -10,7 +10,7 @@ $error: #ff2d26;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -40,7 +40,8 @@ h1.end {
   width: 40rem;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
-  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.1), 0 6px 10px 5px rgba(0, 0, 0, 0.1), 0 8px 10px -5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.1),
+    0 6px 10px 5px rgba(0, 0, 0, 0.1), 0 8px 10px -5px rgba(0, 0, 0, 0.1);
   transition: transform 0.1s ease-in-out;
 }
 #form-box.close {
@@ -49,7 +50,8 @@ h1.end {
   overflow: hidden;
   transition: 0.8s ease-in-out;
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0);
-  #next-btn, #prev-btn {
+  #next-btn,
+  #prev-btn {
     color: #fff;
   }
 }
